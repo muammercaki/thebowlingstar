@@ -20,6 +20,12 @@ public class BowlingGameTest {
     }
 
     @Test
+    public void muammerTestThree() {
+        driver=new ChromeDriver();
+        driver.get(baseUrl);
+    }
+
+    @Test
     public void tearDown(){
         driver.quit();
     }
