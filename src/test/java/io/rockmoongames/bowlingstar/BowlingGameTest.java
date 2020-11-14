@@ -8,7 +8,13 @@ public class BowlingGameTest {
     private static WebDriver driver;
     private static String baseUrl="https://testautomationu.applitools.com/git-tutorial/chapter3.2.html";
     @Test
-    public void jessicaTestOne() {
+    public void muammerTestOne() {
+        driver=new ChromeDriver();
+        driver.get(baseUrl);
+    }
+
+    @Test
+    public void muammerTestTwo() {
         driver=new ChromeDriver();
         driver.get(baseUrl);
     }
